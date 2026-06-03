@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\Todo\Respositories\Interfaces;
+namespace Modules\Todo\Repositories\Interfaces;
 
-interface TodoRespositoryInterface{
+interface TodoRepositoryInterface{
     public function all();
     public function find(int $id);
     public function create(array $data);
